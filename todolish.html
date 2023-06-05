@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div id="header">TO DO LISH</div>
+    <link rel="stylesheet" href="./style4.css">
+    <title>Javascript Example</title>
+    <title>Form -Multi-steps</title>
+</head>
+
+<body>
+    <div id="main_wrapper">
+        <div id="menu">
+
+        </div>
+        <div id="main_content">
+            <div id="left_sidebar">
+
+            </div>
+            <div id="right_sidebar">
+
+            </div>
+            <div id="content">
+                <form action="url" method="post">
+                    <div class="box">
+                        <div style="margin-right: 14px;margin-left: 9px;" class="container-1f">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" id="search" placeholder="Search..." />
+                        </div>
+                    </div>
+
+                    <table>
+                        <form action="" class="form4">
+                            <div>
+                                <div style="display: flex;border: 1px solid #000000; width: 978px; margin: 10px">
+                                    <input style="width:20px" type="checkbox" value="0" id="checkbox1">
+                                    <span style="margin-left:20px;line-height: 61px;">Do homework</span>
+                                    <div style="margin-left: auto;">
+                                        <input style="width:120px; margin: 16px;background-color: blue; color: #ffffff" type="button" id="btn1" value="Detail">
+                                        <input style="width:120px; margin: 16px;background-color: red; color: #ffffff" type="button" id="btn2" value="Remove">
+                                    </div>
+                                    <script language="javascript">
+                                        document.getElementById("btn1").onclick = function() {
+                                            document.getElementById("checkbox1").checked = true;
+                                        };
+                                        document.getElementById("btn2").onclick = function() {
+                                            document.getElementById("checkbox1").checked = false;
+                                        };
+                                    </script>
+                                </div>
+                                <div style="margin-right: 52px;margin-left: 9px;">
+                                    <input type="text" placeholder="Do homework ...">
+                                </div>
+                                <div style="margin-right: 52px;margin-left: 9px;">
+                                    Description
+                                    <textarea cols="30" rows="10" name="content">Lorem Ipsum...</textarea>
+                                </div>
+                                <tr>
+                                    <td>
+                                        Due Date
+                                        <input type="date" id="duedate" name="duedate"></input>
+                                    </td>
+                                    <td>
+                                        Piority
+                                        <select name="Piority">
+                                        <option>Low</option>
+                                        <option>Normal</option>
+                                        <option>High</option>
+                                    </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="update">
+                                    </td>
+                                </tr>
+                    </table>
+                    </form>
+                    <form action="" class="form-one">
+
+                        <tr>
+                            <td>
+                                <div style="display: flex;border: 1px solid #000000; margin: 10px">
+                                    <input style="width:20px" type="checkbox" value="0" id="checkbox2">
+                                    <span style="margin-left:20px;line-height: 61px;">Do housework</span>
+                                    <div style="margin-left: auto">
+                                        <input style="width:120px; margin: 16px; background-color: blue; color: #ffffff" type="button" id="btn3" value="Detail">
+                                        <input style="width:120px; margin: 16px; background-color: red; color: #ffffff" type="button" id="btn4" value="Remove">
+                                    </div>
+                                    <script language="javascript">
+                                        document.getElementById("btn3").onclick = function() {
+                                            document.getElementById("checkbox2").checked = true;
+                                        };
+                                        document.getElementById("btn4").onclick = function() {
+                                            document.getElementById("checkbox2").checked = false;
+                                        };
+                                    </script>
+                                </div>
+                            </td>
+                        </tr>
+                    </form>
+                    <form action="" class="form-tow">
+                        <tr>
+                            <td>
+                                <div style="display: flex;border: 1px solid #000000; margin: 10px">
+                                    <input style="width:20px" type="checkbox" value="0" id="checkbox3">
+                                    <span style="margin-left:20px;line-height: 61px;">Learn Something</span>
+                                    <div style="margin-left: auto">
+                                        <input style="width:120px; margin: 16px;background-color: blue; color: #ffffff" type="button" id="btn5" value="Detail">
+                                        <input style="width:120px; margin: 16px;background-color: red; color: #ffffff" type="button" id="btn6" value="Remove">
+                                    </div>
+                                    <script language="javascript">
+                                        document.getElementById("btn5").onclick = function() {
+                                            document.getElementById("checkbox3").checked = true;
+                                        };
+                                        document.getElementById("btn2").onclick = function() {
+                                            document.getElementById("checkbox3").checked = false;
+                                        };
+                                    </script>
+                                </div>
+                            </td>
+                        </tr>
+                    </form>
+                    </div>
+                    <div style="clear: both"></div>
+            </div>
+            <div id="footer">
+                <form action="" class="form3">
+                    <tr>
+                        <div style="display: flex; margin: 10px">
+                            <span style="margin-left:20px;line-height: 61px;">Bulk Action :</span>
+                            <div style="margin-left: auto">
+                                <input style="width:120px; margin: 16px;background-color: blue; color: #ffffff" type="button" id="btn5" value="Done">
+                                <input style="width:120px; margin: 16px;background-color: red; color: #ffffff" type="button" id="btn6" value="Remove">
+                            </div>
+                            <script language="javascript">
+                                document.getElementById("btn7").onclick = function() {
+                                    document.getElementById("checkbox4").checked = true;
+                                };
+                                document.getElementById("btn8").onclick = function() {
+                                    document.getElementById("checkbox4").checked = false;
+                                };
+                            </script>
+                    </tr>
+                </form>
+                </div>
+            </div>
+</body>
+
+</html>

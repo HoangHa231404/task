@@ -1,0 +1,63 @@
+#header {
+    background: white;
+    height: 50px;
+    text-align: center;
+}
+
+#menu {
+    background: grey;
+    height: 1px;
+}
+
+#main_content {
+    background: white;
+}
+
+#footer {
+    background: rgb(184, 173, 173);
+    height: 62px;
+}
+
+#left_sidebar {
+    float: left;
+    width: 0px;
+    height: 400px;
+    background: white;
+}
+
+#right_sidebar {
+    float: right;
+    width: 0px;
+    height: auto;
+    background: white;
+}
+
+#content {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 600px;
+    background: #fff;
+}
+
+table td {
+    padding: 5px 10px;
+    width: 100%;
+}
+
+input,
+textarea,
+select {
+    border: solid 1px #ddd;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 500px;
+    background: green;
+    color: #fff;
+}

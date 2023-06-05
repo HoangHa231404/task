@@ -1,0 +1,38 @@
+#header {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+}
+
+#main_content {
+    background: white;
+}
+
+#content {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 600px;
+    background: #fff;
+}
+
+table td {
+    padding: 5px 10px;
+}
+
+input,
+textarea,
+select {
+    border: solid 1px #ddd;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+select {
+    width: auto;
+}
+
+input[type="submit"] {
+    width: 500;
+    background: green;
+    color: #fff;
+}
